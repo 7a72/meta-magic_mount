@@ -38,7 +38,11 @@ jobs:
           wc -c bin/mm_*
           file bin/mm_*
           
-          cd ../template; mkdir bin; mv -f ../src/bin/* bin/*
+          cd ../template
+          pwd
+          mkdir bin
+          pwd
+          mv -f ../src/bin/* bin/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
