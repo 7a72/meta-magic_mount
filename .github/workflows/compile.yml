@@ -33,19 +33,17 @@ jobs:
           
           cd src; make
 
-          # wc -c binaries/prctl-*
-          
-          # upx --ultra-brute binaries/prctl-*
-          
-          # for file in binaries/*; do ./sstrip $file ; done
+          # ? upx --ultra-brute binaries/mm-*
           
           wc -c bin/mm_*
           file bin/mm_*
+          
+          cd ../template; mkdir bin; mv -f ../src/bin/* bin/*
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: binaries
-          path: src/bin
+          name: zip
+          path: template
 
 
