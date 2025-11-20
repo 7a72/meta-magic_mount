@@ -4,9 +4,9 @@
 
 ### Changes
 
-Changes since v0.1.1r:
+Changes since v0.1.2:
 
-- Add: Webui Support (ce59d80)
+- webui: Fix safe area (f6b400c)
 
 ---
-Full Changelog: https://github.com/7a72/meta-magic_mount/compare/v0.1.1r...v0.1.2
+Full Changelog: https://github.com/7a72/meta-magic_mount/compare/v0.1.2...v0.1.2
