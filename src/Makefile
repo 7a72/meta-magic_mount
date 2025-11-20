@@ -4,7 +4,7 @@ VERSION  ?= 0.1.0
 # use zig cc
 ZIG      ?= zig
 CC       := $(ZIG) cc
-STRIPPER := strip
+STRIPPER := ../sstrip
 
 # source files
 SRCS     := utils.c magic_mount.c main.c
