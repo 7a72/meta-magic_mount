@@ -1,8 +1,0 @@
-id=meta-mm
-metamodule=1
-name=Magic Mount MetaModule
-version=version
-versionCode=versionCode
-author=7a72
-description=An implementation of a metamodule using Magic Mount, Based on MKSU, Template is from meta-overlay
-updateJson=updateJson
