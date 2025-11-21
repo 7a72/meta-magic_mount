@@ -1,12 +1,12 @@
 # Changelog
 
-## Version v0.1.2 (2025-11-20)
+## Version v0.1.2c (2025-11-21)
 
 ### Changes
 
-Changes since v0.1.2:
+Changes since v0.1.2c:
 
-- webui: Fix safe area (f6b400c)
+- misc: Update README (53a1fdd)
 
 ---
-Full Changelog: https://github.com/7a72/meta-magic_mount/compare/v0.1.2...v0.1.2
+Full Changelog: https://github.com/7a72/meta-magic_mount/compare/v0.1.2c...v0.1.2c
