@@ -13,13 +13,13 @@ SRCS     := utils.c magic_mount.c main.c
 OUTDIR   := bin
 
 # common flags
-CFLAGS_COMMON := -D_POSIX_C_SOURCE=200809L -std=c23 -Wall -Wextra -pedantic
+CFLAGS_COMMON := -Wl,--gc-sections -static
 CFLAGS_COMMON += -DVERSION=\"$(VERSION)\"
 
 LDFLAGS_COMMON := -static
 
 # build mode specific flags
-CFLAGS_RELEASE := -O2 -DNDEBUG
+CFLAGS_RELEASE := -Oz -s -DNDEBUG
 CFLAGS_DEBUG   := -O0 -g -DDEBUG
 
 # zig target triples
